@@ -45,7 +45,7 @@ jobs:
           push: true
           tags: 
             margatho/api-bootcamp-produto:latest
-            margatho/api-bootcamp-produto:V${{github.run_number}}
+            margatho/api-bootcamp-produto:${{github.run_number}}
           
           
         
